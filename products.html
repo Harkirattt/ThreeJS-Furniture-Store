@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Low Poly Isometric</title>
+</head>
+<body>
+    <nav id="nav">
+        <div class="navImg">
+            <img src="/models/ecom_logo.png" alt="">
+            <p class="haa">HAA Furnishings</p>
+        </div>
+        <div class="navText">
+            <ul>
+                <li><a href="homepage.html">Home</a> </li>
+                <li><a href="products.html">Products</a> </li>
+                <li>About Us</li>
+                <li><a href="feedback.html">Contact</a> </li>
+                <input type="text" name="search" id="search" placeholder="Search Products">
+                <button id="searchBtn">Search</button>
+            </ul>
+        </div>
+    </nav>
+    <div style="display: none;" id="alertSuccess">
+        <p>Congratulations! Your order has been placed successfully!</p>
+    </div>
+    <div class="sortCont">
+        <img src="/models/home_photo.png" alt="">
+    </div>
+    <div class="productsCont">
+        <h2>Beds</h2>
+        <hr>
+        <div class="mobilesContainer" id="mobilesContainer">
+            <div class="imagesContainer" id="mobilesImages">
+                <div class="itemCard">
+                    <img src="/models/beds/bed1.jpeg" alt="">
+                    <div class="lines">
+                        <p>Bed 1</p>
+                        <p style="color: green;">Flat 10% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/beds/bed2.jpeg" alt="">
+                    <div class="lines">
+                        <p>Bed 2</p>
+                        <p style="color: green;">Flat 30% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/beds/bed3.jpeg" alt="">
+                    <div class="lines">
+                        <p>Bed 3</p>
+                        <p style="color: green;">Flat 25% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/beds/bed4.jpeg" alt="">
+                    <div class="lines">
+                        <p>Bed 4</p>
+                        <p style="color: green;">Flat 10% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/beds/bed5.jpeg" alt="">
+                    <div class="lines">
+                        <p>Bed 5</p>
+                        <p style="color: green;">Flat 15% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/beds/bed6.jpeg" alt="">
+                    <div class="lines">
+                        <p>Bed 6</p>
+                        <p style="color: green;">Flat 25% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/beds/bed7.jpeg" alt="">
+                    <div class="lines">
+                        <p>Bed 7</p>
+                        <p style="color: green;">Flat 10% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/beds/bed8.jpeg" alt="">
+                    <div class="lines">
+                        <p>Bed 8</p>
+                        <p style="color: green;">Flat 30% Off</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 style="margin-top: 40px;">Chairs</h2>
+        <hr>
+        <div class="mobilesContainer" id="laptopsContainer">
+            <div class="imagesContainer" id="laptopsImages">
+                <div class="itemCard">
+                    <img src="/models/chairs/chair1.jpeg" alt="">
+                    <div class="lines">
+                        <p>Chair 1</p>
+                        <p style="color: green;">Flat 10% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/chairs/chair2.jpeg" alt="">
+                    <div class="lines">
+                        <p>Chair 2</p>
+                        <p style="color: green;">Flat 30% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/chairs/chair3.jpeg" alt="">
+                    <div class="lines">
+                        <p>Chair 3</p>
+                        <p style="color: green;">Flat 25% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/chairs/chair4.jpeg" alt="">
+                    <div class="lines">
+                        <p>Chair 4</p>
+                        <p style="color: green;">Flat 10% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/chairs/chair5.jpeg" alt="">
+                    <div class="lines">
+                        <p>Chair 5</p>
+                        <p style="color: green;">Flat 15% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/chairs/chair6.jpeg" alt="">
+                    <div class="lines">
+                        <p>Chair 6</p>
+                        <p style="color: green;">Flat 25% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/chairs/chair7.jpeg" alt="">
+                    <div class="lines">
+                        <p>Chair 7</p>
+                        <p style="color: green;">Flat 10% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/chairs/chair8.jpeg" alt="">
+                    <div class="lines">
+                        <p>Chair 8</p>
+                        <p style="color: green;">Flat 30% Off</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 style="margin-top: 40px;">Tables</h2>
+        <hr>
+        <div class="mobilesContainer" id="laptopsContainer">
+            <div class="imagesContainer" id="laptopsImages">
+                <div class="itemCard">
+                    <img src="/models/tables/table1.jpg" alt="">
+                    <div class="lines">
+                        <p>Table 1</p>
+                        <p style="color: green;">Flat 10% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/tables/table2.jpg" alt="">
+                    <div class="lines">
+                        <p>Table 2</p>
+                        <p style="color: green;">Flat 30% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/tables/table3.jpeg" alt="">
+                    <div class="lines">
+                        <p>Table 3</p>
+                        <p style="color: green;">Flat 25% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/tables/table4.jpg" alt="">
+                    <div class="lines">
+                        <p>Table 4</p>
+                        <p style="color: green;">Flat 10% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/tables/table5.jpg" alt="">
+                    <div class="lines">
+                        <p>Table 5</p>
+                        <p style="color: green;">Flat 15% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/tables/table6.jpg" alt="">
+                    <div class="lines">
+                        <p>Table 6</p>
+                        <p style="color: green;">Flat 25% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/tables/table7.jpg" alt="">
+                    <div class="lines">
+                        <p>Table 7</p>
+                        <p style="color: green;">Flat 10% Off</p>
+                    </div>
+                </div>
+                <div class="itemCard">
+                    <img src="/models/tables/table8.jpeg" alt="">
+                    <div class="lines">
+                        <p>Table 8</p>
+                        <p style="color: green;">Flat 30% Off</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popupp">
+        
+    </div>
+</body>
+<script src="script3.js"></script>
+
+</html>
